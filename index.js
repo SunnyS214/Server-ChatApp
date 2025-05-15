@@ -23,7 +23,7 @@ app.use(express.json());
 
 // CORS setup for frontend URL
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: 'https://app-chat-iota-puce.vercel.app', 
   credentials: true, 
 }));
 
