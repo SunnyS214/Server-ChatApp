@@ -18,8 +18,13 @@ app.use(express.json());
 
 // CORS setup for both development and production
 app.use(cors({
+<<<<<<< HEAD
   origin: [ "https://app-chat-iota-puce.vercel.app", "http://localhost:5173"],
   credentials: true,
+=======
+  origin: 'https://app-chat-iota-puce.vercel.app', 
+  credentials: true, 
+>>>>>>> 899d61fc90cf4dab0b47a0d00efbddbee155a7d0
 }));
 
 // API routes
